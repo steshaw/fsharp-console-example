@@ -1,1 +1,4 @@
-﻿printfn "Hello, world!"
+﻿let printGreeting name =
+    printfn $"Hello {name} from F#!"
+
+printGreeting "Ana"
